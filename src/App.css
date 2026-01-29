@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 45, 90, 0.85),
+      rgba(0, 20, 40, 0.9)),
+    url("https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d");
+  background-size: cover;
+  background-position: center;
+  padding: 30px 80px;
+  color: white;
+  background-size: cover;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu p {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.nav-menu p:hover {
+  transform: scale(1.1)   ;
+}
+
+
+.hero-center {
+  margin-top: 140px;
+  width: 900px;
+}
+
+
+.hero-center h2 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+
+.hero-center p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #dbeafe;
+}
+
+
+.search-card {
+  width: 1000px;
+  margin-top: 40px;
+  background: white;
+  border-radius: 14px;
+  padding: 18px;
+  display: flex;
+  gap: 12px;
+}
+
+
+.search-card input {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+
+.search-card button {
+  background: #38bdf8;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 180px;
+}
+
+
+.search-card button:hover {
+  background: #0ea5e9;
+  transform: scale(1.1);
+}
